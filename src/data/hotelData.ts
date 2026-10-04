@@ -1,3 +1,11 @@
+import exteriorDay from '../assets/images/lodge_exterior_day_1791097520191.jpg';
+import exteriorDusk from '../assets/images/lodge_exterior_dusk_1791097532930.jpg';
+import gazeboTwilight from '../assets/images/skardu_gazebo_twilight_1791097542889.jpg';
+import panoramicSuite from '../assets/images/panoramic_mountain_suite_1791097554971.jpg';
+import mountainDeluxeRoom from '../assets/images/mountain_view_deluxe_room_1791097564793.jpg';
+import heritageWoodRoom from '../assets/images/heritage_wood_room_1791097576079.jpg';
+import familySuiteBathroom from '../assets/images/family_suite_bathroom_1791097586087.jpg';
+
 export interface HotelInfo {
   name: string;
   starClassification: number;
@@ -95,13 +103,13 @@ export interface DiningConfig {
 }
 
 export const IMAGES = {
-  exteriorDay: '/src/assets/images/lodge_exterior_day_1791097520191.jpg',
-  exteriorDusk: '/src/assets/images/lodge_exterior_dusk_1791097532930.jpg',
-  gazeboTwilight: '/src/assets/images/skardu_gazebo_twilight_1791097542889.jpg',
-  panoramicSuite: '/src/assets/images/panoramic_mountain_suite_1791097554971.jpg',
-  mountainDeluxeRoom: '/src/assets/images/mountain_view_deluxe_room_1791097564793.jpg',
-  heritageWoodRoom: '/src/assets/images/heritage_wood_room_1791097576079.jpg',
-  familySuiteBathroom: '/src/assets/images/family_suite_bathroom_1791097586087.jpg',
+  exteriorDay,
+  exteriorDusk,
+  gazeboTwilight,
+  panoramicSuite,
+  mountainDeluxeRoom,
+  heritageWoodRoom,
+  familySuiteBathroom,
 } as const;
 
 export const hotelData: HotelInfo = {
