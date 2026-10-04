@@ -1,6 +1,0 @@
-{
-  "name": "Mountain Lodge Skardu",
-  "description": "Official website for Mountain Lodge Skardu, a 5-star mountain lodge located on Satpara Rd, Devision, Skardu, Pakistan. Explore rooms, mountain views, dining, and book your stay.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
